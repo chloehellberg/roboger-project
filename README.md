@@ -1,6 +1,6 @@
 # _Mr. Roboger's Neighborhood Project_
 
-#### _A program that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a few fun exceptions, 7.23.20_
+#### _A program that takes a number from a user and returns a range of numbers from 0 to the user inputted number with a few fun exceptions, 7.26.20_
 
 #### By _**Chloe Hellberg**_
 
@@ -21,6 +21,10 @@
 * Spec 4: The program returns "Won't you be my neighbor?" whenever it reads the number 3 in any order
   * Input: "13"
   * Output: "0, 1, 2, Won't you be my neighbor, 4, 5, 6, 7, 8, 9, 10, 11, 12, Won't you be my neighbor"
+
+* Spec 5: The program changes each i variable to a string and then calls the indexOf on our new variable. indexOf will tell us if the number exists within the array and if it is > -1 (returns -1 if the item is not found) and will return something other than our "Beep!" "Boop!" or "Won't you be my neighbor?". We essentially need to break it down into a string so that it will read each portion of that string separately and tell us if a 3, 2, or 1 exists within our array.
+  * Input "23"
+  * Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", "Won't you be my neighbor?"
 
 ## Setup/Installation Requirements
 
