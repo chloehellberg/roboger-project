@@ -6,32 +6,62 @@ $(document).ready(function() {
     
       let roboArray = [];
       for (let i = 0; i <= number; i +=1) {
+
+        let iString = i.toString();
+
         
-        if (i === 3 ) {
-          roboArray.push("Will you be my neighbor?");
+        if (iString.indexOf("3")  > -1) {
+          roboArray.push("Won't you be my neighbor?");
         }
-        else if (i === 2) {
+        else if (iString.indexOf("2") > -1) {
           roboArray.push("Boop!");
         }
-        else if (i === 1) {
+        else if (iString.indexOf("1") > -1) {
           roboArray.push("Beep!");
         }
         else {
           roboArray.push(i);
         }
 
-        // roboArray.push(i);
-        // console.log(number);
       };
  
       console.log(roboArray);
    
   });
-
 });
 
 
+// $(document).ready(function() {
+//   $("#neighborhood").submit(function(event) {
+//     event.preventDefault();
+//     const number = parseInt($('input#number').val());
 
+    
+//       let roboArray = [];
+//       for (let i = 0; i <= number; i +=1) {
+        
+//         if (i === 3 ) {
+//           roboArray.push("Will you be my neighbor?");
+//         }
+//         else if (i === 2) {
+//           roboArray.push("Boop!");
+//         }
+//         else if (i === 1) {
+//           roboArray.push("Beep!");
+//         }
+//         else {
+//           roboArray.push(i);
+//         }
+
+//         // roboArray.push(i);
+//         // console.log(number);
+//       };
+ 
+//       console.log(roboArray);
+   
+//   });
+
+// });
 
 
 
