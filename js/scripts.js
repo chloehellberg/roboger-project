@@ -1,40 +1,18 @@
 $(document).ready(function() {
   $("#neighborhood").submit(function(event) {
     event.preventDefault();
-    let number = parseInt($('input#number').val());
+    const number = parseInt($('input#number').val());
 
-    let roboArray = [];
-
-  function numberList() {
-    let roboArray = [];
-    for (let i = 0; i <= number; i += 1) {
-      roboArray.push(i);
-      console.log(number);
-  };
-  return numberList;
     
-}
-
-    $("#output").text(roboArray);
-    $("#answer").show(roboArray);
-
+      let roboArray = [];
+      for (let i = 0; i <= number; i +=1) {
+        roboArray.push(i);
+        console.log(number);
+      };
+   
   });
+
 });
-
-
-
-// function startThis() {
-//   let numberList = [] {
-//     for (let index = 0; index <= userNumber; index += 1) {
-//       numberList.push(index);
-//     };
-//     return numberList;
-//   }
-// }
-
-
-
-
 
 
 
@@ -47,18 +25,25 @@ $(document).ready(function() {
 // $(document).ready(function() {
 //   $("#neighborhood").submit(function(event) {
 //     event.preventDefault();
-//     let number = parseInt($('input#number').val());
+//     const number = parseInt($('input#number').val());
 
-//     let roboArray = [];
-
-//     for (let i = 0; i < number.length; i++) {
-//       roboArray.push(number[i]);
+//     function numberList(number) {
+//       let roboArray = [];
+//       for (let i = 0; i <= number; i +=1) {
+//         roboArray.push(i);
+//         console.log(number);
+//       };
+//       return roboArray;
 //     }
-//     // roboArray.push(number);
-//     console.log(roboArray);
 
-//     $("#output").text(roboArray);
-//     $("#answer").show(roboArray);
+//     const numArray = numberList(number);
 
+//     console.log(numArray);
+    
 //   });
+//     $("#output").text(numberList);
+//     $("#answer").show(numberList);
 // });
+
+
+
