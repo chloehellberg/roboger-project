@@ -14,7 +14,11 @@
   * Input: "3"
   * Output: "0, 1, 2, Won't you be my neighbor"
 
-* Spec 3: The program returns "Won't you be my neighbor?" whenever it reads the number 3 in any order
+  * Spec 3: The program returns "Beep" "Boop" and "Won't you be my neighbor?" whenever it reads the number 1, 2, or 3.
+  * Input: "13"
+  * Output: "0, Beep!, Boop!, Won't you be my neighbor, 4, 5, 6, 7, 8, 9, 10, 11, 12, Won't you be my neighbor"
+
+* Spec 4: The program returns "Won't you be my neighbor?" whenever it reads the number 3 in any order
   * Input: "13"
   * Output: "0, 1, 2, Won't you be my neighbor, 4, 5, 6, 7, 8, 9, 10, 11, 12, Won't you be my neighbor"
 
