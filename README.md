@@ -8,7 +8,11 @@
 
 * Spec 1: The program returns a range of numbers from 0 to the users inputted number
   * Input: "4"
-  * Outpput: "0, 1, 2, 3, 4"
+  * Output: "0, 1, 2, 3, 4"
+
+* Spec 2: The program returns "Won't you be my neighbor?" in place of the number 3 when it reads a "3" in the array
+  * Input: "3"
+  * Output: "0, 1, 2, Won't you be my neighbor"
 
 ## Setup/Installation Requirements
 
