@@ -31,6 +31,13 @@ $(document).ready(function() {
 });
 
 
+
+
+
+// Sorry about the code below - I've saved it for my own personal use and wouldn't ever keep it in a real life project. I'd like to be able to go back and see my thought process through each spec.
+
+
+
 // $(document).ready(function() {
 //   $("#neighborhood").submit(function(event) {
 //     event.preventDefault();
