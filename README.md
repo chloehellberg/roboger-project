@@ -4,9 +4,11 @@
 
 #### By _**Chloe Hellberg**_
 
-## Description: Behavior Driven Development
+## Description: Behavior Driven Development/Spec
 
-_Spec Included Here_
+* Spec: The program returns a range of numbers from 0 to the users inputted number
+  * Input: "4"
+  * Outpput: "0, 1, 2, 3, 4"
 
 ## Setup/Installation Requirements
 
