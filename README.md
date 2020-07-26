@@ -14,6 +14,10 @@
   * Input: "3"
   * Output: "0, 1, 2, Won't you be my neighbor"
 
+* Spec 3: The program returns "Won't you be my neighbor?" whenever it reads the number 3 in any order
+  * Input: "13"
+  * Output: "0, 1, 2, Won't you be my neighbor, 4, 5, 6, 7, 8, 9, 10, 11, 12, Won't you be my neighbor"
+
 ## Setup/Installation Requirements
 
 * _Clone the application to your desktop_
